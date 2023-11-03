@@ -20,10 +20,8 @@
 				<!-- Header Top -->
 				<nav id="nav">
 					<ul>
-						<li><a href="index.html" ><img src="images/star.png" alt="" width="50" height="50"/></a></li>
+						<li><a href="index.html" ><img src="images/logo.png" alt="" width="150" height="50"/></a></li>
 						<li><a href="library.html">Library</a></li>
-						<li><a href="#second">Details</a></li>
-						<li><a href="#footer">Contact</a></li>
 					</ul>
 				</nav>
 
@@ -35,6 +33,41 @@
 
 				<!-- Main -->
 					<div id="main">
+
+						<!-- Domain Nav -->
+						<nav id="dom-nav">
+							<ul>
+								<li><a href="library.html">General</a></li>
+								<li><a href="#second">Experssive Com</a></li>
+								<li><a href="#footer">Receptive Com</a></li>
+								<li><a href="#footer">DLS</a></li>
+								<li><a href="#footer">Social Skills</a></li>
+								<li><a href="#footer">Parent Trainings</a></li>
+								<script>
+									function redirectToPage() {
+										var dropdown = document.getElementById("socialSkillsDropdown");
+										var selectedOption = dropdown.options[dropdown.selectedIndex].value;
+										if (selectedOption === "child") {
+											window.location.href = "child-page.html";
+										} else if (selectedOption === "teen") {
+											window.location.href = "teen-page.html";
+										} else if (selectedOption === "relationship") {
+											window.location.href = "relationship-page.html";
+										}
+									}
+								</script>
+
+								<li>
+									
+									<select id="socialSkillsDropdown" onchange="redirectToPage()">
+										<option value="" disabled selected>SSG Lessons</option>
+										<option value="child">Child</option>
+										<option value="teen">Teen</option>
+										<option value="relationship">Relationship</option>
+									</select>
+								</li>
+							</ul>
+						</nav>
 
 								<!-- Section Title -->
 
