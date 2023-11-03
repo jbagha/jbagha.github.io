@@ -1,0 +1,131 @@
+<!DOCTYPE HTML>
+<!--
+	Stellar by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Stellar by HTML5 UP</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header Top -->
+				<nav id="nav">
+					<ul>
+						<li><a href="index.html" ><img src="images/star.png" alt="" width="50" height="50"/></a></li>
+						<li><a href="library.html">Library</a></li>
+						<li><a href="#second">Details</a></li>
+						<li><a href="#footer">Contact</a></li>
+					</ul>
+				</nav>
+
+
+
+
+				<!-- Main -->
+					<div id="main">
+
+
+										<a href="resources/AnimalsBook.pdf">Book</a>
+										<a href="resources/GuessMyMermaid.pptx">Game</a>
+										<a href="resources/BrushingTABlue.docx">Brush</a>
+										<ul class="actions">
+											<li><a href="generic.html" class="button">Learn More</a></li>
+										</ul>
+
+						<!-- First Section -->
+							<section id="first" class="main special">
+								<header class="major">
+									<h2>Domains</h2>
+								</header>
+								<ul class="features">
+									<li>
+										<span class="icon solid major style1 fa-code"></span>
+										<h3>General</h3>
+									</li>
+									<li>
+										<span class="icon major style3 fa-copy"></span>
+										<h3>Receptive Communication</h3>
+
+									</li>
+									<li>
+										<span class="icon major style5 fa-gem"></span>
+										<h3>Expressive Communication</h3>
+
+									</li>
+                                    <li>
+										<span class="icon major style5 fa-gem"></span>
+										<h3>Daily Living Skills</h3>
+
+									</li>
+                                    <li>
+										<span class="icon major style5 fa-gem"></span>
+										<h3>Social Skills</h3>
+
+									</li>
+                                    <li>
+										<span class="icon major style5 fa-gem"></span>
+										<h3>Parent Trainings</h3>
+
+									</li>
+
+									<script>
+										function redirectToPage() {
+											var dropdown = document.getElementById("socialSkillsDropdown");
+											var selectedOption = dropdown.options[dropdown.selectedIndex].value;
+											if (selectedOption === "child") {
+												window.location.href = "child-page.html";
+											} else if (selectedOption === "teen") {
+												window.location.href = "teen-page.html";
+											} else if (selectedOption === "relationship") {
+												window.location.href = "relationship-page.html";
+											}
+										}
+									</script>
+
+									<li>
+										<span class="icon major style5 fa-gem"></span>
+										<h3>Social Skills Group Lessons</h3>
+										<select id="socialSkillsDropdown" onchange="redirectToPage()">
+											<option value="" disabled selected>Choose an option</option>
+											<option value="child">Child</option>
+											<option value="teen">Teen</option>
+											<option value="relationship">Relationship</option>
+										</select>
+									</li>
+								</ul>
+
+								<footer class="major">
+
+								</footer>
+							</section>
+
+
+
+
+
+					</div>
+
+
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
