@@ -75,17 +75,30 @@
 
 									</li>
 
+									<script>
+										function redirectToPage() {
+											var dropdown = document.getElementById("socialSkillsDropdown");
+											var selectedOption = dropdown.options[dropdown.selectedIndex].value;
+											if (selectedOption === "child") {
+												window.location.href = "child-page.html";
+											} else if (selectedOption === "teen") {
+												window.location.href = "teen-page.html";
+											} else if (selectedOption === "relationship") {
+												window.location.href = "relationship-page.html";
+											}
+										}
+									</script>
 
-                                        <li>
-                                            <span class="icon major style5 fa-gem"></span>
-                                            <h3>Social Skills Group Lessons</h3>
-                                            <ol type="a">
-                                                <li>Child </li>
-                                                <li>Teen </li>
-                                                <li>Relationship </li>
-                                            </ol>
-
-                                        </li>
+									<li>
+										<span class="icon major style5 fa-gem"></span>
+										<h3>Social Skills Group Lessons</h3>
+										<select id="socialSkillsDropdown" onchange="redirectToPage()">
+											<option value="" disabled selected>Choose an option</option>
+											<option value="child">Child</option>
+											<option value="teen">Teen</option>
+											<option value="relationship">Relationship</option>
+										</select>
+									</li>
 								</ul>
 
 								<footer class="major">
