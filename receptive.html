@@ -1,0 +1,114 @@
+<!DOCTYPE HTML>
+<!--
+	Stellar by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Receptive</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header Top -->
+				<nav id="nav">
+					<ul>
+						<li><a href="index.html" ><img src="images/logo.png" alt="" width="150" height="50"/></a></li>
+						<li><a href="library.html">Library</a></li>
+					</ul>
+				</nav>
+
+				<!-- Header -->
+					<header id="header">
+						<h1>Receptive Communication</h1>
+						<p>Click on the image to view or download.</p>
+					</header>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Domain Nav -->
+						<nav id="dom-nav">
+							<ul>
+								<li><a href="general.html">General</a></li>
+								<li><a href="expressive.html">Experssive Com</a></li>
+								<li><a href="receptive.html">Receptive Com</a></li>
+								<li><a href="dls.html">DLS</a></li>
+								<li><a href="ss.html">Social Skills</a></li>
+								<li><a href="pt.html">Parent Trainings</a></li>
+								<script>
+									function redirectToPage() {
+										var dropdown = document.getElementById("socialSkillsDropdown");
+										var selectedOption = dropdown.options[dropdown.selectedIndex].value;
+										if (selectedOption === "child") {
+											window.location.href = "child.html";
+										} else if (selectedOption === "teen") {
+											window.location.href = "teen.html";
+										} else if (selectedOption === "relationship") {
+											window.location.href = "relationship.html";
+										}
+									}
+								</script>
+
+								<li>
+
+									<select id="socialSkillsDropdown" onchange="redirectToPage()">
+										<option value="" disabled selected>SSG Lessons</option>
+										<option value="child">Child</option>
+										<option value="teen">Teen</option>
+										<option value="relationship">Relationship</option>
+									</select>
+								</li>
+							</ul>
+						</nav>
+
+								<!-- Section Title -->
+
+								<section id="content" class="main">
+									<section id="intro" class="main">
+										<div class="spotlight">
+											<div class="content">
+												<header class="major">
+													<h2>Ipsum sed adipiscing</h2>
+												</header>
+										</div>
+									</section>
+
+
+									<!-- Resources -->
+										<div class="box alt">
+											<div class="row gtr-uniform">
+												<div class="col-4"><span class="image fit"><img src="images/pic01.png" alt="" /></span><h3>Seamlessly visualize quality to write something extra long</h3></div>
+												<div class="col-4"><span class="image fit"><img src="images/pic02.jpg" alt="" /></span><h3>Seamlessly visualize quality</h3></div>
+												<div class="col-4"><span class="image fit"><img src="images/pic03.jpg" alt="" /></span></div>
+												<div class="col-4"><span class="image fit"><img src="images/pic01.png" alt="" /></span></div>
+												<div class="col-4"><span class="image fit"><img src="images/pic01.png" alt="" /></span></div>
+												<div class="col-4"><span class="image fit"><img src="images/pic02.jpg" alt="" /></span></div>
+												<div class="col-4"><span class="image fit"><img src="images/pic02.jpg" alt="" /></span></div>
+												<div class="col-4"><span class="image fit"><img src="images/pic03.jpg" alt="" /></span></div>
+												<div class="col-4"><span class="image fit"><img src="images/pic01.jpg" alt="" /></span></div>
+											</div>
+										</div>
+
+
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
