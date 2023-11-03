@@ -1,0 +1,684 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"/><title>Terms of Service:</title><style>
+/* cspell:disable-file */
+/* webkit printing magic: print all background colors */
+html {
+	-webkit-print-color-adjust: exact;
+}
+* {
+	box-sizing: border-box;
+	-webkit-print-color-adjust: exact;
+}
+
+html,
+body {
+	margin: 0;
+	padding: 0;
+}
+@media only screen {
+	body {
+		margin: 2em auto;
+		max-width: 900px;
+		color: rgb(55, 53, 47);
+	}
+}
+
+body {
+	line-height: 1.5;
+	white-space: pre-wrap;
+}
+
+a,
+a.visited {
+	color: inherit;
+	text-decoration: underline;
+}
+
+.pdf-relative-link-path {
+	font-size: 80%;
+	color: #444;
+}
+
+h1,
+h2,
+h3 {
+	letter-spacing: -0.01em;
+	line-height: 1.2;
+	font-weight: 600;
+	margin-bottom: 0;
+}
+
+.page-title {
+	font-size: 2.5rem;
+	font-weight: 700;
+	margin-top: 0;
+	margin-bottom: 0.75em;
+}
+
+h1 {
+	font-size: 1.875rem;
+	margin-top: 1.875rem;
+}
+
+h2 {
+	font-size: 1.5rem;
+	margin-top: 1.5rem;
+}
+
+h3 {
+	font-size: 1.25rem;
+	margin-top: 1.25rem;
+}
+
+.source {
+	border: 1px solid #ddd;
+	border-radius: 3px;
+	padding: 1.5em;
+	word-break: break-all;
+}
+
+.callout {
+	border-radius: 3px;
+	padding: 1rem;
+}
+
+figure {
+	margin: 1.25em 0;
+	page-break-inside: avoid;
+}
+
+figcaption {
+	opacity: 0.5;
+	font-size: 85%;
+	margin-top: 0.5em;
+}
+
+mark {
+	background-color: transparent;
+}
+
+.indented {
+	padding-left: 1.5em;
+}
+
+hr {
+	background: transparent;
+	display: block;
+	width: 100%;
+	height: 1px;
+	visibility: visible;
+	border: none;
+	border-bottom: 1px solid rgba(55, 53, 47, 0.09);
+}
+
+img {
+	max-width: 100%;
+}
+
+@media only print {
+	img {
+		max-height: 100vh;
+		object-fit: contain;
+	}
+}
+
+@page {
+	margin: 1in;
+}
+
+.collection-content {
+	font-size: 0.875rem;
+}
+
+.column-list {
+	display: flex;
+	justify-content: space-between;
+}
+
+.column {
+	padding: 0 1em;
+}
+
+.column:first-child {
+	padding-left: 0;
+}
+
+.column:last-child {
+	padding-right: 0;
+}
+
+.table_of_contents-item {
+	display: block;
+	font-size: 0.875rem;
+	line-height: 1.3;
+	padding: 0.125rem;
+}
+
+.table_of_contents-indent-1 {
+	margin-left: 1.5rem;
+}
+
+.table_of_contents-indent-2 {
+	margin-left: 3rem;
+}
+
+.table_of_contents-indent-3 {
+	margin-left: 4.5rem;
+}
+
+.table_of_contents-link {
+	text-decoration: none;
+	opacity: 0.7;
+	border-bottom: 1px solid rgba(55, 53, 47, 0.18);
+}
+
+table,
+th,
+td {
+	border: 1px solid rgba(55, 53, 47, 0.09);
+	border-collapse: collapse;
+}
+
+table {
+	border-left: none;
+	border-right: none;
+}
+
+th,
+td {
+	font-weight: normal;
+	padding: 0.25em 0.5em;
+	line-height: 1.5;
+	min-height: 1.5em;
+	text-align: left;
+}
+
+th {
+	color: rgba(55, 53, 47, 0.6);
+}
+
+ol,
+ul {
+	margin: 0;
+	margin-block-start: 0.6em;
+	margin-block-end: 0.6em;
+}
+
+li > ol:first-child,
+li > ul:first-child {
+	margin-block-start: 0.6em;
+}
+
+ul > li {
+	list-style: disc;
+}
+
+ul.to-do-list {
+	padding-inline-start: 0;
+}
+
+ul.to-do-list > li {
+	list-style: none;
+}
+
+.to-do-children-checked {
+	text-decoration: line-through;
+	opacity: 0.375;
+}
+
+ul.toggle > li {
+	list-style: none;
+}
+
+ul {
+	padding-inline-start: 1.7em;
+}
+
+ul > li {
+	padding-left: 0.1em;
+}
+
+ol {
+	padding-inline-start: 1.6em;
+}
+
+ol > li {
+	padding-left: 0.2em;
+}
+
+.mono ol {
+	padding-inline-start: 2em;
+}
+
+.mono ol > li {
+	text-indent: -0.4em;
+}
+
+.toggle {
+	padding-inline-start: 0em;
+	list-style-type: none;
+}
+
+/* Indent toggle children */
+.toggle > li > details {
+	padding-left: 1.7em;
+}
+
+.toggle > li > details > summary {
+	margin-left: -1.1em;
+}
+
+.selected-value {
+	display: inline-block;
+	padding: 0 0.5em;
+	background: rgba(206, 205, 202, 0.5);
+	border-radius: 3px;
+	margin-right: 0.5em;
+	margin-top: 0.3em;
+	margin-bottom: 0.3em;
+	white-space: nowrap;
+}
+
+.collection-title {
+	display: inline-block;
+	margin-right: 1em;
+}
+
+.page-description {
+    margin-bottom: 2em;
+}
+
+.simple-table {
+	margin-top: 1em;
+	font-size: 0.875rem;
+	empty-cells: show;
+}
+.simple-table td {
+	height: 29px;
+	min-width: 120px;
+}
+
+.simple-table th {
+	height: 29px;
+	min-width: 120px;
+}
+
+.simple-table-header-color {
+	background: rgb(247, 246, 243);
+	color: black;
+}
+.simple-table-header {
+	font-weight: 500;
+}
+
+time {
+	opacity: 0.5;
+}
+
+.icon {
+	display: inline-block;
+	max-width: 1.2em;
+	max-height: 1.2em;
+	text-decoration: none;
+	vertical-align: text-bottom;
+	margin-right: 0.5em;
+}
+
+img.icon {
+	border-radius: 3px;
+}
+
+.user-icon {
+	width: 1.5em;
+	height: 1.5em;
+	border-radius: 100%;
+	margin-right: 0.5rem;
+}
+
+.user-icon-inner {
+	font-size: 0.8em;
+}
+
+.text-icon {
+	border: 1px solid #000;
+	text-align: center;
+}
+
+.page-cover-image {
+	display: block;
+	object-fit: cover;
+	width: 100%;
+	max-height: 30vh;
+}
+
+.page-header-icon {
+	font-size: 3rem;
+	margin-bottom: 1rem;
+}
+
+.page-header-icon-with-cover {
+	margin-top: -0.72em;
+	margin-left: 0.07em;
+}
+
+.page-header-icon img {
+	border-radius: 3px;
+}
+
+.link-to-page {
+	margin: 1em 0;
+	padding: 0;
+	border: none;
+	font-weight: 500;
+}
+
+p > .user {
+	opacity: 0.5;
+}
+
+td > .user,
+td > time {
+	white-space: nowrap;
+}
+
+input[type="checkbox"] {
+	transform: scale(1.5);
+	margin-right: 0.6em;
+	vertical-align: middle;
+}
+
+p {
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
+
+.image {
+	border: none;
+	margin: 1.5em 0;
+	padding: 0;
+	border-radius: 0;
+	text-align: center;
+}
+
+.code,
+code {
+	background: rgba(135, 131, 120, 0.15);
+	border-radius: 3px;
+	padding: 0.2em 0.4em;
+	border-radius: 3px;
+	font-size: 85%;
+	tab-size: 2;
+}
+
+code {
+	color: #eb5757;
+}
+
+.code {
+	padding: 1.5em 1em;
+}
+
+.code-wrap {
+	white-space: pre-wrap;
+	word-break: break-all;
+}
+
+.code > code {
+	background: none;
+	padding: 0;
+	font-size: 100%;
+	color: inherit;
+}
+
+blockquote {
+	font-size: 1.25em;
+	margin: 1em 0;
+	padding-left: 1em;
+	border-left: 3px solid rgb(55, 53, 47);
+}
+
+.bookmark {
+	text-decoration: none;
+	max-height: 8em;
+	padding: 0;
+	display: flex;
+	width: 100%;
+	align-items: stretch;
+}
+
+.bookmark-title {
+	font-size: 0.85em;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	height: 1.75em;
+	white-space: nowrap;
+}
+
+.bookmark-text {
+	display: flex;
+	flex-direction: column;
+}
+
+.bookmark-info {
+	flex: 4 1 180px;
+	padding: 12px 14px 14px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.bookmark-image {
+	width: 33%;
+	flex: 1 1 180px;
+	display: block;
+	position: relative;
+	object-fit: cover;
+	border-radius: 1px;
+}
+
+.bookmark-description {
+	color: rgba(55, 53, 47, 0.6);
+	font-size: 0.75em;
+	overflow: hidden;
+	max-height: 4.5em;
+	word-break: break-word;
+}
+
+.bookmark-href {
+	font-size: 0.75em;
+	margin-top: 0.25em;
+}
+
+.sans { font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol"; }
+.code { font-family: "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace; }
+.serif { font-family: Lyon-Text, Georgia, ui-serif, serif; }
+.mono { font-family: iawriter-mono, Nitti, Menlo, Courier, monospace; }
+.pdf .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK JP'; }
+.pdf:lang(zh-CN) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK SC'; }
+.pdf:lang(zh-TW) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK TC'; }
+.pdf:lang(ko-KR) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK KR'; }
+.pdf .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK JP'; }
+.pdf:lang(zh-CN) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK SC'; }
+.pdf:lang(zh-TW) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK TC'; }
+.pdf:lang(ko-KR) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK KR'; }
+.pdf .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK JP'; }
+.pdf:lang(zh-CN) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK SC'; }
+.pdf:lang(zh-TW) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK TC'; }
+.pdf:lang(ko-KR) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK KR'; }
+.pdf .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK JP'; }
+.pdf:lang(zh-CN) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK SC'; }
+.pdf:lang(zh-TW) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK TC'; }
+.pdf:lang(ko-KR) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK KR'; }
+.highlight-default {
+	color: rgba(55, 53, 47, 1);
+}
+.highlight-gray {
+	color: rgba(120, 119, 116, 1);
+	fill: rgba(120, 119, 116, 1);
+}
+.highlight-brown {
+	color: rgba(159, 107, 83, 1);
+	fill: rgba(159, 107, 83, 1);
+}
+.highlight-orange {
+	color: rgba(217, 115, 13, 1);
+	fill: rgba(217, 115, 13, 1);
+}
+.highlight-yellow {
+	color: rgba(203, 145, 47, 1);
+	fill: rgba(203, 145, 47, 1);
+}
+.highlight-teal {
+	color: rgba(68, 131, 97, 1);
+	fill: rgba(68, 131, 97, 1);
+}
+.highlight-blue {
+	color: rgba(51, 126, 169, 1);
+	fill: rgba(51, 126, 169, 1);
+}
+.highlight-purple {
+	color: rgba(144, 101, 176, 1);
+	fill: rgba(144, 101, 176, 1);
+}
+.highlight-pink {
+	color: rgba(193, 76, 138, 1);
+	fill: rgba(193, 76, 138, 1);
+}
+.highlight-red {
+	color: rgba(212, 76, 71, 1);
+	fill: rgba(212, 76, 71, 1);
+}
+.highlight-gray_background {
+	background: rgba(241, 241, 239, 1);
+}
+.highlight-brown_background {
+	background: rgba(244, 238, 238, 1);
+}
+.highlight-orange_background {
+	background: rgba(251, 236, 221, 1);
+}
+.highlight-yellow_background {
+	background: rgba(251, 243, 219, 1);
+}
+.highlight-teal_background {
+	background: rgba(237, 243, 236, 1);
+}
+.highlight-blue_background {
+	background: rgba(231, 243, 248, 1);
+}
+.highlight-purple_background {
+	background: rgba(244, 240, 247, 0.8);
+}
+.highlight-pink_background {
+	background: rgba(249, 238, 243, 0.8);
+}
+.highlight-red_background {
+	background: rgba(253, 235, 236, 1);
+}
+.block-color-default {
+	color: inherit;
+	fill: inherit;
+}
+.block-color-gray {
+	color: rgba(120, 119, 116, 1);
+	fill: rgba(120, 119, 116, 1);
+}
+.block-color-brown {
+	color: rgba(159, 107, 83, 1);
+	fill: rgba(159, 107, 83, 1);
+}
+.block-color-orange {
+	color: rgba(217, 115, 13, 1);
+	fill: rgba(217, 115, 13, 1);
+}
+.block-color-yellow {
+	color: rgba(203, 145, 47, 1);
+	fill: rgba(203, 145, 47, 1);
+}
+.block-color-teal {
+	color: rgba(68, 131, 97, 1);
+	fill: rgba(68, 131, 97, 1);
+}
+.block-color-blue {
+	color: rgba(51, 126, 169, 1);
+	fill: rgba(51, 126, 169, 1);
+}
+.block-color-purple {
+	color: rgba(144, 101, 176, 1);
+	fill: rgba(144, 101, 176, 1);
+}
+.block-color-pink {
+	color: rgba(193, 76, 138, 1);
+	fill: rgba(193, 76, 138, 1);
+}
+.block-color-red {
+	color: rgba(212, 76, 71, 1);
+	fill: rgba(212, 76, 71, 1);
+}
+.block-color-gray_background {
+	background: rgba(241, 241, 239, 1);
+}
+.block-color-brown_background {
+	background: rgba(244, 238, 238, 1);
+}
+.block-color-orange_background {
+	background: rgba(251, 236, 221, 1);
+}
+.block-color-yellow_background {
+	background: rgba(251, 243, 219, 1);
+}
+.block-color-teal_background {
+	background: rgba(237, 243, 236, 1);
+}
+.block-color-blue_background {
+	background: rgba(231, 243, 248, 1);
+}
+.block-color-purple_background {
+	background: rgba(244, 240, 247, 0.8);
+}
+.block-color-pink_background {
+	background: rgba(249, 238, 243, 0.8);
+}
+.block-color-red_background {
+	background: rgba(253, 235, 236, 1);
+}
+.select-value-color-interactiveBlue { background-color: rgba(35, 131, 226, .07); }
+.select-value-color-pink { background-color: rgba(245, 224, 233, 1); }
+.select-value-color-purple { background-color: rgba(232, 222, 238, 1); }
+.select-value-color-green { background-color: rgba(219, 237, 219, 1); }
+.select-value-color-gray { background-color: rgba(227, 226, 224, 1); }
+.select-value-color-translucentGray { background-color: rgba(255, 255, 255, 0.0375); }
+.select-value-color-orange { background-color: rgba(250, 222, 201, 1); }
+.select-value-color-brown { background-color: rgba(238, 224, 218, 1); }
+.select-value-color-red { background-color: rgba(255, 226, 221, 1); }
+.select-value-color-yellow { background-color: rgba(253, 236, 200, 1); }
+.select-value-color-blue { background-color: rgba(211, 229, 239, 1); }
+.select-value-color-pageGlass { background-color: undefined; }
+.select-value-color-washGlass { background-color: undefined; }
+
+.checkbox {
+	display: inline-flex;
+	vertical-align: text-bottom;
+	width: 16;
+	height: 16;
+	background-size: 16px;
+	margin-left: 2px;
+	margin-right: 5px;
+}
+
+.checkbox-on {
+	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20width%3D%2216%22%20height%3D%2216%22%20fill%3D%22%2358A9D7%22%2F%3E%0A%3Cpath%20d%3D%22M6.71429%2012.2852L14%204.9995L12.7143%203.71436L6.71429%209.71378L3.28571%206.2831L2%207.57092L6.71429%2012.2852Z%22%20fill%3D%22white%22%2F%3E%0A%3C%2Fsvg%3E");
+}
+
+.checkbox-off {
+	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20x%3D%220.75%22%20y%3D%220.75%22%20width%3D%2214.5%22%20height%3D%2214.5%22%20fill%3D%22white%22%20stroke%3D%22%2336352F%22%20stroke-width%3D%221.5%22%2F%3E%0A%3C%2Fsvg%3E");
+}
+	
+</style></head><body><article id="6f50d433-974d-498a-af12-a6303d2d20eb" class="page sans"><header><h1 class="page-title">Terms of Service:</h1><p class="page-description"></p></header><div class="page-body"><p id="b4e98154-f3ff-4993-b637-9169d10bae3e" class=""><mark class="highlight-default">These terms and conditions constitute a legal agreement (referred to as &quot;Terms&quot;) between you (including the business entity you represent, referred to as &quot;you&quot; or &quot;your&quot; or &quot;User&quot;) and Abativity, LLC (&quot;Abativity&quot; or &quot;we,&quot; &quot;us,&quot; or &quot;our&quot;). These Terms outline the conditions under which you may access and use the services and features (&quot;Services&quot;) provided through our web-based ABA resources platform (&quot;Platform&quot;) by Abativity. The Platform is accessible through our Website at </mark><mark class="highlight-default"><a href="https://www.abativity.com/"><strong>https://www.abativity.com/</strong></a></mark><mark class="highlight-default"> and its related sub-domains (collectively referred to as the &quot;Website(s)&quot;). The initial agreement to these Terms is acknowledged as the &quot;Effective Date.&quot; Your usage of the Platform is also governed by our Privacy Policy, accessible at </mark><mark class="highlight-default"><a href="https://abativity.com/privacy"><strong>https://abativity.com/privacy</strong></a></mark><mark class="highlight-default">, which is periodically updated (&quot;Privacy Policy&quot;).</mark></p><p id="cee2a7cc-a29d-447f-a1f2-d04d0a101ba6" class="">
+</p><p id="7de035b9-255a-4440-afe1-90196e0c7b42" class=""><mark class="highlight-default">The Platform enables you to use and/or customize ABA-related content for clients (&quot;Clients&quot;) by granting them access to the content available through your use of the Platform.</mark></p><p id="f5dfdc9f-5fc2-4646-a3ea-5da0f9581d17" class=""><mark class="highlight-default">You affirm, assure, and commit that before displaying content from the Platform to any individual, you will secure the agreement of those individuals. If applicable under the law and regulations, this agreement must be obtained from either the individuals themselves or their parent or legal guardian. This agreement permits such individuals or the Clients they represent to access and use the content available through your use of the Platform, adhering to terms and conditions consistent with these Terms.</mark></p><p id="924843ac-d7b5-494a-81b1-ca463e70ed56" class="">
+</p><p id="c6f1143e-2fae-4c8c-ad0f-0b893a1e0257" class=""><mark class="highlight-default">Before accessing the Platform or utilizing any of the Services, carefully review these Terms. By clicking on the &quot;I ACCEPT&quot; button or accessing the Platform, website, or using the Services, you, and the business entity you represent, are agreeing to be bound by and becoming a party to these Terms. You confirm that you have the authority to enter into these Terms on behalf of the business entity you represent. You hereby commit to ensuring that all users accessing the Platform and/or the Services from you are bound by these Terms. If you do not agree to all of these Terms, do not click &quot;I ACCEPT,&quot; and you will not be permitted to access and/or use the Services.</mark></p><p id="e3fe264a-88be-49b4-ba4f-fdd1d690849c" class=""><mark class="highlight-default"><strong>1. Registration</strong></mark></p><p id="68a4324d-c634-4c4e-b97d-a54d7af9084c" class=""><mark class="highlight-default">Certain parts of our Services may be accessible to users without registration, while additional features require registration. To use the Service, you agree to (a) provide accurate, current, and complete information about you as prompted by any registration forms on the Service (&quot;Registration Data&quot;); (b) maintain the security of your password and identification; (c) update the Registration Data and any other information provided to us to keep it accurate, current, and complete; and (d) be fully responsible for all use of your account and any actions taken using your account.</mark></p><p id="e2ae013e-b5fa-4fea-825f-3b99a50fa22c" class=""><mark class="highlight-default"><strong>2. Restricted License</strong></mark></p><p id="2695b41a-f753-483b-9aae-b351088158de" class=""><mark class="highlight-default">Provided you comply with your obligations under these Terms, Abativity grants you a non-exclusive, non-transferable, restricted license (without the right to sublicense) to access the Platform and use the Services as per these Terms and the instructions and guidelines posted on the Platform. Abativity reserves the right to terminate your license to use the Platform and Services at any time for any reason or to change the features included in different subscription plans. You may not use the Services to replicate products or services offered by Abativity, including republication of Abativity content or creating a competing platform. If Abativity reasonably suspects that you have violated these Terms, your access to the Services may be temporarily or permanently revoked, with or without notice.</mark></p><p id="f84f0a3b-0c3c-478e-8d95-f392e1237fc2" class=""><mark class="highlight-default">Abativity may investigate possible violations of these Terms, block users, and refer matters to law enforcement authorities. We may disclose information to third parties in accordance with our Privacy Policy, available at </mark><mark class="highlight-default"><a href="https://abativity.com/privacy"><strong>https://abativity.com/privacy</strong></a></mark><mark class="highlight-default">.</mark></p><p id="fd657abb-4b51-4b43-ae36-bb22d674899e" class=""><mark class="highlight-default">Abativity reserves the right to use whatever means it deems appropriate to monitor your compliance with these Terms.  Abativity reserves the right to exercise whatever lawful means it deems necessary to prevent unauthorized access to or use of the Services, including, but not limited to, technological barriers, IP mapping, and contacting your Internet Service Provider (ISP) regarding such unauthorized use.</mark></p><p id="7436c319-097a-4557-aa59-08b349fe2ac9" class=""><mark class="highlight-default">You confirm that you are not located in a country subject to a U.S. Government embargo or designated as a “terrorist supporting” country. You are not listed on any U.S. Government list of prohibited or restricted parties.</mark></p><p id="d565f1ca-0930-40d1-89bc-36d219d2c095" class="">
+</p><p id="d657378d-72e8-4abf-a15f-06c649670aa4" class=""><mark class="highlight-default"><strong>3. Your Content</strong></mark></p><p id="c4b8250c-eea7-4e67-9f26-b4b094adb06a" class=""><mark class="highlight-default">To use certain Services features, you may provide us with information or access to information to create and update your Abativity account (&quot;your content&quot;). You own your content and can request deletion, except if shared with others or copied by other users. You represent that you have the right to provide us with your content and permit us to use it as authorized by these Terms or our Privacy Policy.</mark></p><p id="9ad0a8f4-44f1-4b79-9158-a8be2e516176" class=""><mark class="highlight-default">Abativity permits clinicians to provide information identifying content available to individual clients. You agree not to provide information constituting an “education record” under FERPA or 34 CFR §99.3 or personal information regarding minors.</mark></p><p id="a66842ec-c284-42fc-a412-b4043eb2abda" class=""><mark class="highlight-default">You are responsible for maintaining a permanent record of your content. Abativity is not liable for any loss or corruption of your content.</mark></p><p id="de7d8871-f497-4c5c-a662-bed023ed84eb" class=""><mark class="highlight-default">Abativity may monitor your use of the Services and Platform and use data related to your use in aggregate or de-identified form, complying with applicable laws. Such data may be publicly available and used for data analysis and service enhancement, provided it does not identify you or any individual or entity.</mark></p><p id="29116aea-20e1-4792-b240-edba621be6d8" class=""><mark class="highlight-default"><strong>4. User Conduct</strong></mark></p><p id="fd420fb4-e973-4b14-abee-c01bae5db70d" class=""><mark class="highlight-default">The Services are for personal, business, and client use. You shall not share your login credentials or enable a third party to use your account. Content accessible through the Services may be protected by intellectual property rights. Do not copy, upload, download, or share files unless you have the right. You are responsible for what you share, post, upload, or use while using the Services. Your content or information shared through the Services shall not violate third-party rights or laws.</mark></p><p id="789289d4-db38-43de-8707-cd39393c3c1c" class=""><mark class="highlight-default">You agree not to:</mark></p><ul id="1a53073d-5a27-4b4e-80b8-a834129ebc14" class="bulleted-list"><li style="list-style-type:disc"><mark class="highlight-default">Use the Services unlawfully or in a way that could damage or impair Services.</mark></li></ul><ul id="5c6e8fe8-4e05-45a5-8365-23dfa2865a13" class="bulleted-list"><li style="list-style-type:disc"><mark class="highlight-default">Share harmful, threatening, defamatory, infringing, abusive, inflammatory, or illegal content.</mark></li></ul><ul id="72bac104-4202-40f9-b79d-f6fa56d14b71" class="bulleted-list"><li style="list-style-type:disc"><mark class="highlight-default">Impersonate any person or entity.</mark></li></ul><ul id="dc67bcad-b58a-4114-ae2a-79661534b8a0" class="bulleted-list"><li style="list-style-type:disc"><mark class="highlight-default">Share unsolicited advertising, spam, or solicitations.</mark></li></ul><ul id="ed68ae8f-a089-4437-957e-b05ef03f1cca" class="bulleted-list"><li style="list-style-type:disc"><mark class="highlight-default">Share private information of third parties.</mark></li></ul><ul id="07bd1349-fe1b-4da1-8270-3b3c0c23ded8" class="bulleted-list"><li style="list-style-type:disc"><mark class="highlight-default">Share material with viruses or malicious code.</mark></li></ul><ul id="f2b5db1a-ad2d-4b14-a204-c6a2fe3d1bc6" class="bulleted-list"><li style="list-style-type:disc"><mark class="highlight-default">Violate any law or create liability.</mark></li></ul><ul id="7896e0b9-558a-4b54-bb57-2a6b64a27caa" class="bulleted-list"><li style="list-style-type:disc"><mark class="highlight-default">Use another’s account without authorization.</mark></li></ul><ul id="d2b4e180-f13e-4957-8a23-205da3038031" class="bulleted-list"><li style="list-style-type:disc"><mark class="highlight-default">Manipulate Services to obtain unauthorized features.</mark></li></ul><ul id="2e92ff20-2b14-4af1-9ead-280dc5b4cc1d" class="bulleted-list"><li style="list-style-type:disc"><mark class="highlight-default">Record, process, or mine other users&#x27; information.</mark></li></ul><ul id="e956445a-2fd2-4e41-b829-86829b653cf3" class="bulleted-list"><li style="list-style-type:disc"><mark class="highlight-default">Use any automated means to access the Services.</mark></li></ul><ul id="e3d3e1be-09f6-4862-8862-ce7dfe6160bc" class="bulleted-list"><li style="list-style-type:disc"><mark class="highlight-default">Reformat or frame any part of the Services.</mark></li></ul><p id="9a869d68-f111-46df-8cab-e8a4b42b983f" class=""><mark class="highlight-default"><strong>5. Content Posted on Other Websites</strong></mark></p><p id="970f62a3-783b-4368-ae05-12c8575b5864" class=""><mark class="highlight-default">Abativity is not responsible for non-Abativity websites linked on Abativity.com. You are responsible for protecting your systems from harmful content. Abativity disclaims any harm resulting from your use of non-Abativity websites.</mark></p><p id="d4a66b86-6bc5-42ff-8602-9c2eb62e3179" class=""><mark class="highlight-default"><a href="https://abativity.com/privacy"><strong>https://abativity.com/privacy</strong></a></mark><mark class="highlight-default"> governs data use and disclosure.</mark></p><p id="d1d466e0-17e4-4067-bbce-3117a82ad10d" class="">
+</p><p id="baf27006-f081-408c-adb4-feb0051dd279" class=""><mark class="highlight-default"><strong>6. Intellectual Property</strong></mark></p><p id="36809efd-ab78-4f2b-ac3c-6a5151557649" class=""><mark class="highlight-default">These Terms do not transfer any Abativity or third-party intellectual property rights to you. All trademarks, service marks, graphics, and logos associated with Abativity, LLC or the Platform remain the property of Abativity. Your use of the Platform does not grant you the right to reproduce or use any Abativity or third-party trademarks.</mark></p><p id="7e9467e1-9981-4f40-a154-bd0be4fdcc14" class=""><mark class="highlight-default"><strong>7. Unsolicited Ideas and Feedback</strong></mark></p><p id="3fa52144-ddbf-4e34-96e8-fac93f641b78" class=""><mark class="highlight-default">While we appreciate your feedback, please note that any unsolicited ideas you share become Abativity&#x27;s property, without compensation owed to you. Abativity may use or redistribute these ideas for any purpose and is not obligated to keep them confidential.</mark></p><p id="c9665dfa-5061-432e-a72d-f9e93b5e3b65" class=""><mark class="highlight-default"><strong>8. Advertisements</strong></mark></p><p id="6928961b-d22d-41f9-a1b0-63286aaa58cf" class=""><mark class="highlight-default">Abativity reserves the right to display advertisements on Abativity.com.</mark></p><p id="cc81275c-3508-4a89-9344-ad74cf6c35d2" class=""><mark class="highlight-default"><strong>9. Payments</strong></mark></p><p id="fdb6ab99-59dc-485b-8508-6caa18d848d8" class=""><mark class="highlight-default">If you purchase any Premium Services, you agree to pay the applicable fees and taxes. Abativity or its payment processing service provider may store your payment card information. You can cancel your Premium Services as specified on the Platform. If your subscription is paid by an organization, it shall be effective for the paid period.</mark></p><p id="d958b19c-7765-488f-887b-37c824d72d45" class=""><mark class="highlight-default"><strong>10. Changes</strong></mark></p><p id="3dfade12-7474-43ae-9b30-23994c568dcf" class=""><mark class="highlight-default">Abativity may modify these Terms at its sole discretion. It is your responsibility to check for changes. Your continued use of the Platform after changes are posted constitutes acceptance, except during your paid subscription period, where changes become effective upon renewal or your acceptance.</mark></p><p id="f841a817-4481-4171-adbe-304c2dd6b289" class=""><mark class="highlight-default"><strong>11. Termination</strong></mark></p><p id="fc50075d-beb7-4de7-b3ef-1c894e4a0b9d" class=""><mark class="highlight-default">Abativity can terminate your access to the Platform at any time, with or without cause, effective immediately. You can terminate your abativity.com account by following the provided procedures. Abativity is not obliged to refund any previous payments. Provisions like ownership rights, data sharing, disclaimers, indemnity, limitations of liability, and governing law will survive termination.</mark></p><p id="ff23ebcb-21c2-4e6e-be66-5590c95c0f31" class="">
+</p><p id="b4a3c0ea-f5bb-4f0c-8756-9c335db6044d" class=""><mark class="highlight-default"><strong>12. Disclaimer of Warranties</strong></mark></p><p id="aeedd6ea-3424-451d-9fa1-dfc779e951d3" class=""><mark class="highlight-default">a) The Abativity Services, your Abativity account, and all information and content are provided to you on an &quot;as is,&quot; &quot;as available&quot; basis. The Abativity Parties make no warranties, representations, or conditions of any kind, express, statutory, or implied regarding the operation, functionality, accuracy, integrity, completeness, quality, legality, usefulness, safety, or IP rights of the information and content on the Services. The Abativity Parties do not guarantee uninterrupted or error-free functions on the site, and do not warrant that defects will be corrected. No advice or information obtained from Abativity or the Abativity Services creates any warranty not expressly stated here.</mark></p><p id="3d1ab166-938b-40ff-ab03-e09a652cc21a" class=""><mark class="highlight-default">b) The Abativity Parties are not liable for any loss or damage arising from your use of the Abativity Services. Your use is at your own risk, and you are solely responsible for any resulting loss or damage, including lost revenue, profits, or data, or computer damage due to downloaded viruses.</mark></p><p id="0cdfb6df-c5eb-4a9b-9c18-2c578c9416bd" class=""><mark class="highlight-default">c) The Abativity Parties are not liable for any loss or damage arising from your interactions with businesses, advertisers, or users on the Abativity Services. Abativity has no affiliation with these entities, and your interactions are solely between you and them. Abativity reserves the right to monitor disputes between you and these entities.</mark></p><p id="c57dc10d-4f6b-411b-90dc-3bc84c8e0d8d" class=""><mark class="highlight-default">d) Some jurisdictions do not allow the exclusion of certain warranties or limitations on implied warranties, so the above limitations may not apply to you.</mark></p><p id="6c792a4f-5633-42f9-bf14-8f642cbb6ca8" class=""><mark class="highlight-default">e) Abativity is not responsible for verifying user identities or monitoring user use, thus disclaims liability for identity theft or any other misuse of your information permitted by you.</mark></p><p id="915d068b-eee2-42ed-b8ea-415c0487be05" class=""><mark class="highlight-default">f) Abativity is not responsible for the delivery of messages sent through Abativity to anyone.</mark></p><p id="9df444e8-38c7-4d37-8b76-9999cc85408d" class=""><mark class="highlight-default">g) The Abativity Services may contain hyperlinks to third-party websites, and Abativity is not liable for the content on these sites.</mark></p><p id="0d8e399c-9a51-4b55-bb3b-63db18411cf0" class=""><mark class="highlight-default"><strong>13. Limitation of Liability</strong></mark></p><p id="239a721e-a76c-42a4-b9e4-4c4cd356b32e" class=""><mark class="highlight-default">a) The Abativity Parties will not be liable for indirect, special, incidental, punitive, exemplary, reliance, or consequential damages, loss of profits, business interruption, damage to reputation, or loss of information or data, regardless of legal theory, even if Abativity has been advised of the possibility of such damages.</mark></p><p id="c07e6002-c772-459e-bc73-fbc42b2ec20a" class=""><mark class="highlight-default">b) The Abativity Parties&#x27; maximum liability to you for any cause will be limited to the greater of the amount paid by you to Abativity in the twelve months prior to the action or $10.00.</mark></p><p id="aad44f38-ddca-4d8d-9d2c-86e592e65d49" class=""><mark class="highlight-default"><strong>14. General Representation and Warranty</strong></mark></p><p id="80f4896c-cc17-411d-a24d-d2821bd0f839" class=""><mark class="highlight-default">You represent and warrant that your use of the Platform complies with the Abativity Privacy Policy, these Terms, and all applicable laws and regulations. Your use will not infringe the intellectual property rights of any third party.</mark></p><p id="d2bbb2c6-78a2-4904-b587-9cf0a0bc5693" class=""><mark class="highlight-default"><strong>15. Indemnification</strong></mark></p><p id="0f4d4207-6c18-4081-8241-bb243407aa83" class=""><mark class="highlight-default">You agree to indemnify and hold harmless Abativity, its contractors, and licensors, and their respective directors, officers, employees, and agents from any claims and expenses, including attorneys’ fees, arising from your use of the Platform.</mark></p><p id="141e84a5-1f56-4214-8464-5d5078562aee" class=""><mark class="highlight-default"><strong>16. Miscellaneous</strong></mark></p><p id="5038e76f-6ff0-4210-bc59-28fd5ef76530" class=""><mark class="highlight-default">These Terms constitute the entire agreement between Abativity and you. Abativity may revise these Terms without notice. The Terms will be governed by the laws of Illinois, USA. All legal proceedings will be in federal or state courts located in Illinois. If any part of these Terms is deemed unlawful, it will not affect the remaining provisions. These Terms are not transferable without Abativity&#x27;s consent. Abativity may assign its rights and obligations without condition.</mark></p><p id="aa1d1e6a-80e0-4edc-b8b5-0cf0a18f72fd" class=""><mark class="highlight-default"><strong>17. For Additional Information</strong></mark></p><p id="7b7e5178-336b-4b97-9c55-910f2e06deb1" class=""><mark class="highlight-default">If you have questions about these Terms, contact us at </mark><mark class="highlight-default"><a href="mailto:jasmine@abativity.com"><strong>jasmine@abativity.com</strong></a></mark><mark class="highlight-default">.</mark></p><p id="fe876c31-d58b-436f-8275-1baaf785e9cf" class="">
+</p><p id="abc80dc1-74e6-4a29-a0ce-57f53d89323b" class=""><mark class="highlight-default"><em>Last Updated: October 10, 2023</em></mark></p><p id="04f603e9-de3b-469b-9e4b-bb797274ee81" class="">
+</p><p id="1c4df7b7-4502-465f-bf6d-3f36ac517549" class="">
+</p></div></article><span class="sans" style="font-size:14px;padding-top:2em"></span></body></html>

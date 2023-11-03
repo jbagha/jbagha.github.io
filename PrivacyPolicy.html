@@ -1,0 +1,679 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"/><title>Privacy Policy</title><style>
+/* cspell:disable-file */
+/* webkit printing magic: print all background colors */
+html {
+	-webkit-print-color-adjust: exact;
+}
+* {
+	box-sizing: border-box;
+	-webkit-print-color-adjust: exact;
+}
+
+html,
+body {
+	margin: 0;
+	padding: 0;
+}
+@media only screen {
+	body {
+		margin: 2em auto;
+		max-width: 900px;
+		color: rgb(55, 53, 47);
+	}
+}
+
+body {
+	line-height: 1.5;
+	white-space: pre-wrap;
+}
+
+a,
+a.visited {
+	color: inherit;
+	text-decoration: underline;
+}
+
+.pdf-relative-link-path {
+	font-size: 80%;
+	color: #444;
+}
+
+h1,
+h2,
+h3 {
+	letter-spacing: -0.01em;
+	line-height: 1.2;
+	font-weight: 600;
+	margin-bottom: 0;
+}
+
+.page-title {
+	font-size: 2.5rem;
+	font-weight: 700;
+	margin-top: 0;
+	margin-bottom: 0.75em;
+}
+
+h1 {
+	font-size: 1.875rem;
+	margin-top: 1.875rem;
+}
+
+h2 {
+	font-size: 1.5rem;
+	margin-top: 1.5rem;
+}
+
+h3 {
+	font-size: 1.25rem;
+	margin-top: 1.25rem;
+}
+
+.source {
+	border: 1px solid #ddd;
+	border-radius: 3px;
+	padding: 1.5em;
+	word-break: break-all;
+}
+
+.callout {
+	border-radius: 3px;
+	padding: 1rem;
+}
+
+figure {
+	margin: 1.25em 0;
+	page-break-inside: avoid;
+}
+
+figcaption {
+	opacity: 0.5;
+	font-size: 85%;
+	margin-top: 0.5em;
+}
+
+mark {
+	background-color: transparent;
+}
+
+.indented {
+	padding-left: 1.5em;
+}
+
+hr {
+	background: transparent;
+	display: block;
+	width: 100%;
+	height: 1px;
+	visibility: visible;
+	border: none;
+	border-bottom: 1px solid rgba(55, 53, 47, 0.09);
+}
+
+img {
+	max-width: 100%;
+}
+
+@media only print {
+	img {
+		max-height: 100vh;
+		object-fit: contain;
+	}
+}
+
+@page {
+	margin: 1in;
+}
+
+.collection-content {
+	font-size: 0.875rem;
+}
+
+.column-list {
+	display: flex;
+	justify-content: space-between;
+}
+
+.column {
+	padding: 0 1em;
+}
+
+.column:first-child {
+	padding-left: 0;
+}
+
+.column:last-child {
+	padding-right: 0;
+}
+
+.table_of_contents-item {
+	display: block;
+	font-size: 0.875rem;
+	line-height: 1.3;
+	padding: 0.125rem;
+}
+
+.table_of_contents-indent-1 {
+	margin-left: 1.5rem;
+}
+
+.table_of_contents-indent-2 {
+	margin-left: 3rem;
+}
+
+.table_of_contents-indent-3 {
+	margin-left: 4.5rem;
+}
+
+.table_of_contents-link {
+	text-decoration: none;
+	opacity: 0.7;
+	border-bottom: 1px solid rgba(55, 53, 47, 0.18);
+}
+
+table,
+th,
+td {
+	border: 1px solid rgba(55, 53, 47, 0.09);
+	border-collapse: collapse;
+}
+
+table {
+	border-left: none;
+	border-right: none;
+}
+
+th,
+td {
+	font-weight: normal;
+	padding: 0.25em 0.5em;
+	line-height: 1.5;
+	min-height: 1.5em;
+	text-align: left;
+}
+
+th {
+	color: rgba(55, 53, 47, 0.6);
+}
+
+ol,
+ul {
+	margin: 0;
+	margin-block-start: 0.6em;
+	margin-block-end: 0.6em;
+}
+
+li > ol:first-child,
+li > ul:first-child {
+	margin-block-start: 0.6em;
+}
+
+ul > li {
+	list-style: disc;
+}
+
+ul.to-do-list {
+	padding-inline-start: 0;
+}
+
+ul.to-do-list > li {
+	list-style: none;
+}
+
+.to-do-children-checked {
+	text-decoration: line-through;
+	opacity: 0.375;
+}
+
+ul.toggle > li {
+	list-style: none;
+}
+
+ul {
+	padding-inline-start: 1.7em;
+}
+
+ul > li {
+	padding-left: 0.1em;
+}
+
+ol {
+	padding-inline-start: 1.6em;
+}
+
+ol > li {
+	padding-left: 0.2em;
+}
+
+.mono ol {
+	padding-inline-start: 2em;
+}
+
+.mono ol > li {
+	text-indent: -0.4em;
+}
+
+.toggle {
+	padding-inline-start: 0em;
+	list-style-type: none;
+}
+
+/* Indent toggle children */
+.toggle > li > details {
+	padding-left: 1.7em;
+}
+
+.toggle > li > details > summary {
+	margin-left: -1.1em;
+}
+
+.selected-value {
+	display: inline-block;
+	padding: 0 0.5em;
+	background: rgba(206, 205, 202, 0.5);
+	border-radius: 3px;
+	margin-right: 0.5em;
+	margin-top: 0.3em;
+	margin-bottom: 0.3em;
+	white-space: nowrap;
+}
+
+.collection-title {
+	display: inline-block;
+	margin-right: 1em;
+}
+
+.page-description {
+    margin-bottom: 2em;
+}
+
+.simple-table {
+	margin-top: 1em;
+	font-size: 0.875rem;
+	empty-cells: show;
+}
+.simple-table td {
+	height: 29px;
+	min-width: 120px;
+}
+
+.simple-table th {
+	height: 29px;
+	min-width: 120px;
+}
+
+.simple-table-header-color {
+	background: rgb(247, 246, 243);
+	color: black;
+}
+.simple-table-header {
+	font-weight: 500;
+}
+
+time {
+	opacity: 0.5;
+}
+
+.icon {
+	display: inline-block;
+	max-width: 1.2em;
+	max-height: 1.2em;
+	text-decoration: none;
+	vertical-align: text-bottom;
+	margin-right: 0.5em;
+}
+
+img.icon {
+	border-radius: 3px;
+}
+
+.user-icon {
+	width: 1.5em;
+	height: 1.5em;
+	border-radius: 100%;
+	margin-right: 0.5rem;
+}
+
+.user-icon-inner {
+	font-size: 0.8em;
+}
+
+.text-icon {
+	border: 1px solid #000;
+	text-align: center;
+}
+
+.page-cover-image {
+	display: block;
+	object-fit: cover;
+	width: 100%;
+	max-height: 30vh;
+}
+
+.page-header-icon {
+	font-size: 3rem;
+	margin-bottom: 1rem;
+}
+
+.page-header-icon-with-cover {
+	margin-top: -0.72em;
+	margin-left: 0.07em;
+}
+
+.page-header-icon img {
+	border-radius: 3px;
+}
+
+.link-to-page {
+	margin: 1em 0;
+	padding: 0;
+	border: none;
+	font-weight: 500;
+}
+
+p > .user {
+	opacity: 0.5;
+}
+
+td > .user,
+td > time {
+	white-space: nowrap;
+}
+
+input[type="checkbox"] {
+	transform: scale(1.5);
+	margin-right: 0.6em;
+	vertical-align: middle;
+}
+
+p {
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
+
+.image {
+	border: none;
+	margin: 1.5em 0;
+	padding: 0;
+	border-radius: 0;
+	text-align: center;
+}
+
+.code,
+code {
+	background: rgba(135, 131, 120, 0.15);
+	border-radius: 3px;
+	padding: 0.2em 0.4em;
+	border-radius: 3px;
+	font-size: 85%;
+	tab-size: 2;
+}
+
+code {
+	color: #eb5757;
+}
+
+.code {
+	padding: 1.5em 1em;
+}
+
+.code-wrap {
+	white-space: pre-wrap;
+	word-break: break-all;
+}
+
+.code > code {
+	background: none;
+	padding: 0;
+	font-size: 100%;
+	color: inherit;
+}
+
+blockquote {
+	font-size: 1.25em;
+	margin: 1em 0;
+	padding-left: 1em;
+	border-left: 3px solid rgb(55, 53, 47);
+}
+
+.bookmark {
+	text-decoration: none;
+	max-height: 8em;
+	padding: 0;
+	display: flex;
+	width: 100%;
+	align-items: stretch;
+}
+
+.bookmark-title {
+	font-size: 0.85em;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	height: 1.75em;
+	white-space: nowrap;
+}
+
+.bookmark-text {
+	display: flex;
+	flex-direction: column;
+}
+
+.bookmark-info {
+	flex: 4 1 180px;
+	padding: 12px 14px 14px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.bookmark-image {
+	width: 33%;
+	flex: 1 1 180px;
+	display: block;
+	position: relative;
+	object-fit: cover;
+	border-radius: 1px;
+}
+
+.bookmark-description {
+	color: rgba(55, 53, 47, 0.6);
+	font-size: 0.75em;
+	overflow: hidden;
+	max-height: 4.5em;
+	word-break: break-word;
+}
+
+.bookmark-href {
+	font-size: 0.75em;
+	margin-top: 0.25em;
+}
+
+.sans { font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol"; }
+.code { font-family: "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace; }
+.serif { font-family: Lyon-Text, Georgia, ui-serif, serif; }
+.mono { font-family: iawriter-mono, Nitti, Menlo, Courier, monospace; }
+.pdf .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK JP'; }
+.pdf:lang(zh-CN) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK SC'; }
+.pdf:lang(zh-TW) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK TC'; }
+.pdf:lang(ko-KR) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK KR'; }
+.pdf .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK JP'; }
+.pdf:lang(zh-CN) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK SC'; }
+.pdf:lang(zh-TW) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK TC'; }
+.pdf:lang(ko-KR) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK KR'; }
+.pdf .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK JP'; }
+.pdf:lang(zh-CN) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK SC'; }
+.pdf:lang(zh-TW) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK TC'; }
+.pdf:lang(ko-KR) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK KR'; }
+.pdf .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK JP'; }
+.pdf:lang(zh-CN) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK SC'; }
+.pdf:lang(zh-TW) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK TC'; }
+.pdf:lang(ko-KR) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK KR'; }
+.highlight-default {
+	color: rgba(55, 53, 47, 1);
+}
+.highlight-gray {
+	color: rgba(120, 119, 116, 1);
+	fill: rgba(120, 119, 116, 1);
+}
+.highlight-brown {
+	color: rgba(159, 107, 83, 1);
+	fill: rgba(159, 107, 83, 1);
+}
+.highlight-orange {
+	color: rgba(217, 115, 13, 1);
+	fill: rgba(217, 115, 13, 1);
+}
+.highlight-yellow {
+	color: rgba(203, 145, 47, 1);
+	fill: rgba(203, 145, 47, 1);
+}
+.highlight-teal {
+	color: rgba(68, 131, 97, 1);
+	fill: rgba(68, 131, 97, 1);
+}
+.highlight-blue {
+	color: rgba(51, 126, 169, 1);
+	fill: rgba(51, 126, 169, 1);
+}
+.highlight-purple {
+	color: rgba(144, 101, 176, 1);
+	fill: rgba(144, 101, 176, 1);
+}
+.highlight-pink {
+	color: rgba(193, 76, 138, 1);
+	fill: rgba(193, 76, 138, 1);
+}
+.highlight-red {
+	color: rgba(212, 76, 71, 1);
+	fill: rgba(212, 76, 71, 1);
+}
+.highlight-gray_background {
+	background: rgba(241, 241, 239, 1);
+}
+.highlight-brown_background {
+	background: rgba(244, 238, 238, 1);
+}
+.highlight-orange_background {
+	background: rgba(251, 236, 221, 1);
+}
+.highlight-yellow_background {
+	background: rgba(251, 243, 219, 1);
+}
+.highlight-teal_background {
+	background: rgba(237, 243, 236, 1);
+}
+.highlight-blue_background {
+	background: rgba(231, 243, 248, 1);
+}
+.highlight-purple_background {
+	background: rgba(244, 240, 247, 0.8);
+}
+.highlight-pink_background {
+	background: rgba(249, 238, 243, 0.8);
+}
+.highlight-red_background {
+	background: rgba(253, 235, 236, 1);
+}
+.block-color-default {
+	color: inherit;
+	fill: inherit;
+}
+.block-color-gray {
+	color: rgba(120, 119, 116, 1);
+	fill: rgba(120, 119, 116, 1);
+}
+.block-color-brown {
+	color: rgba(159, 107, 83, 1);
+	fill: rgba(159, 107, 83, 1);
+}
+.block-color-orange {
+	color: rgba(217, 115, 13, 1);
+	fill: rgba(217, 115, 13, 1);
+}
+.block-color-yellow {
+	color: rgba(203, 145, 47, 1);
+	fill: rgba(203, 145, 47, 1);
+}
+.block-color-teal {
+	color: rgba(68, 131, 97, 1);
+	fill: rgba(68, 131, 97, 1);
+}
+.block-color-blue {
+	color: rgba(51, 126, 169, 1);
+	fill: rgba(51, 126, 169, 1);
+}
+.block-color-purple {
+	color: rgba(144, 101, 176, 1);
+	fill: rgba(144, 101, 176, 1);
+}
+.block-color-pink {
+	color: rgba(193, 76, 138, 1);
+	fill: rgba(193, 76, 138, 1);
+}
+.block-color-red {
+	color: rgba(212, 76, 71, 1);
+	fill: rgba(212, 76, 71, 1);
+}
+.block-color-gray_background {
+	background: rgba(241, 241, 239, 1);
+}
+.block-color-brown_background {
+	background: rgba(244, 238, 238, 1);
+}
+.block-color-orange_background {
+	background: rgba(251, 236, 221, 1);
+}
+.block-color-yellow_background {
+	background: rgba(251, 243, 219, 1);
+}
+.block-color-teal_background {
+	background: rgba(237, 243, 236, 1);
+}
+.block-color-blue_background {
+	background: rgba(231, 243, 248, 1);
+}
+.block-color-purple_background {
+	background: rgba(244, 240, 247, 0.8);
+}
+.block-color-pink_background {
+	background: rgba(249, 238, 243, 0.8);
+}
+.block-color-red_background {
+	background: rgba(253, 235, 236, 1);
+}
+.select-value-color-interactiveBlue { background-color: rgba(35, 131, 226, .07); }
+.select-value-color-pink { background-color: rgba(245, 224, 233, 1); }
+.select-value-color-purple { background-color: rgba(232, 222, 238, 1); }
+.select-value-color-green { background-color: rgba(219, 237, 219, 1); }
+.select-value-color-gray { background-color: rgba(227, 226, 224, 1); }
+.select-value-color-translucentGray { background-color: rgba(255, 255, 255, 0.0375); }
+.select-value-color-orange { background-color: rgba(250, 222, 201, 1); }
+.select-value-color-brown { background-color: rgba(238, 224, 218, 1); }
+.select-value-color-red { background-color: rgba(255, 226, 221, 1); }
+.select-value-color-yellow { background-color: rgba(253, 236, 200, 1); }
+.select-value-color-blue { background-color: rgba(211, 229, 239, 1); }
+.select-value-color-pageGlass { background-color: undefined; }
+.select-value-color-washGlass { background-color: undefined; }
+
+.checkbox {
+	display: inline-flex;
+	vertical-align: text-bottom;
+	width: 16;
+	height: 16;
+	background-size: 16px;
+	margin-left: 2px;
+	margin-right: 5px;
+}
+
+.checkbox-on {
+	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20width%3D%2216%22%20height%3D%2216%22%20fill%3D%22%2358A9D7%22%2F%3E%0A%3Cpath%20d%3D%22M6.71429%2012.2852L14%204.9995L12.7143%203.71436L6.71429%209.71378L3.28571%206.2831L2%207.57092L6.71429%2012.2852Z%22%20fill%3D%22white%22%2F%3E%0A%3C%2Fsvg%3E");
+}
+
+.checkbox-off {
+	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20x%3D%220.75%22%20y%3D%220.75%22%20width%3D%2214.5%22%20height%3D%2214.5%22%20fill%3D%22white%22%20stroke%3D%22%2336352F%22%20stroke-width%3D%221.5%22%2F%3E%0A%3C%2Fsvg%3E");
+}
+	
+</style></head><body><article id="128d6ca1-759b-4236-ad9d-65bf6415400c" class="page sans"><header><h1 class="page-title">Privacy Policy</h1><p class="page-description"></p></header><div class="page-body"><p id="a250d894-1f46-49e0-b884-8a2959bdc231" class="">
+</p><p id="36f58361-fdca-4a52-92dd-a77f1f517ba3" class="">Abativity, LLC (“<strong>Abativity</strong>,” “<strong>we</strong>,” “<strong>us</strong>,” or “<strong>our</strong>”) provides this Privacy Policy to our website visitors and customers to help you understand how we collect, use, process, and share your personal information, and to help you understand and exercise your privacy rights.</p><p id="b6117218-b85b-48f4-ad8d-cb614173eb85" class=""><strong>1. SCOPE AND UPDATES TO THIS PRIVACY POLICY</strong></p><p id="fd822ccf-bb64-4f73-a9d3-6f24926cf16c" class="">This Privacy Policy applies to personal information processed by us, including on our websites, mobile applications, and other online or offline offerings. To make this Privacy Policy easier to read, our websites, mobile applications, and other offerings are collectively called the “<strong>Services</strong>.”</p><p id="df5aa912-b2d2-4b48-9c6e-5f9bb4f9e3c4" class="">This Privacy Policy does not apply to any of the personal information that we process on behalf of our customers through their use of our Services (“<strong>Customer Data</strong>”). Our customers’ respective privacy policies govern their collection and use of Customer Data. Our processing of Customer Data is governed by the contracts that we have in place with our customers, not this Privacy Policy. Any questions or requests relating to Customer Data should be directed to our customer.</p><p id="40018d46-749b-4ea6-8293-13af0700762e" class="">WE MAY REVISE THIS PRIVACY POLICY FROM TIME TO TIME IN OUR SOLE DISCRETION. IF THERE ARE ANY MATERIAL CHANGES TO THIS PRIVACY POLICY, WE WILL NOTIFY YOU AS REQUIRED BY APPLICABLE LAW. YOU UNDERSTAND AND AGREE THAT YOU WILL BE DEEMED TO HAVE ACCEPTED THE UPDATED PRIVACY POLICY IF YOU CONTINUE TO USE OUR SERVICES AFTER THE NEW PRIVACY POLICY TAKES EFFECT.</p><p id="fe8f3519-d4f7-4a12-ad23-ed30955cbcb7" class=""><strong>2. PERSONAL INFORMATION WE COLLECT</strong></p><p id="4328c6b5-9832-4fdc-824a-000624466331" class="">The categories of personal information we collect depend on how you interact with us, our Services, and the requirements of applicable law. We collect information that you provide to us, information we obtain automatically when you use our Services, and information from other sources such as third-party services and organizations, as described below.</p><p id="96774ab3-367a-4cff-8e1a-6d69c6927cc9" class=""><strong>A. Personal Information You Provide to Us Directly</strong></p><p id="068fef38-8aa4-4eee-b981-ddea6935691d" class="">We may collect personal information that you provide to us.</p><ul id="b638f3af-9447-4103-8f2c-25ae7973cfcd" class="bulleted-list"><li style="list-style-type:disc"><strong>Account Creation</strong>. We may collect personal information when you create an account, such as name, email address, username, profile picture, etc.</li></ul><ul id="9f7522ea-274c-480c-86ff-44f67edd19fc" class="bulleted-list"><li style="list-style-type:disc"><strong>Purchases</strong>. We may collect personal information and details associated with your purchases, including payment information. Any payments made via our Services are processed by third-party payment processors. We do not directly collect or store any payment card information entered through our Services, but we may receive information associated with your payment card information (e.g., your billing details).</li></ul><ul id="eeca109e-fe0e-4fc0-9768-9bc2629f4ae7" class="bulleted-list"><li style="list-style-type:disc"><strong>Your Communications with Us</strong>. We may collect personal information, such as email address, phone number, or mailing address when you request information about our Services, register for our newsletter or, request customer or technical support, or otherwise communicate with us.</li></ul><ul id="28bc9f1b-22a6-4401-9cd2-d20df415217f" class="bulleted-list"><li style="list-style-type:disc"><strong>Surveys</strong>. We may contact you to participate in surveys. If you decide to participate, we may collect personal information from you in connection with the survey.</li></ul><ul id="d7e53ce0-9032-4528-b01c-f6ecd0d59416" class="bulleted-list"><li style="list-style-type:disc"><strong>Conferences, Trade Shows, and Other Events</strong>. We may collect personal information from individuals when we attend or host conferences, trade shows, and other events.</li></ul><ul id="cd2db6a8-3d39-42be-8516-e288fab8730a" class="bulleted-list"><li style="list-style-type:disc"><strong>Business Development and Strategic Partnerships</strong>. We may collect personal information from individuals and third parties to assess and pursue potential business opportunities.</li></ul><ul id="d601cae1-5a55-4d14-977b-64ca6d448926" class="bulleted-list"><li style="list-style-type:disc"><strong>Job Applications</strong>. We may post job openings and opportunities on our Services. If you respond to one of these postings, we may collect your personal information, such as your application, CV, cover letter, and/or any other information you provide to us.</li></ul><p id="f24ecd33-ad23-4afb-b453-48954cea3b28" class=""><strong>B. Personal Information Collected Automatically</strong></p><p id="64192430-2cd4-4332-8d74-e0e31057ced4" class="">We may collect personal information automatically when you use our Services.</p><ul id="f94dbf1b-e5ee-4970-a0c1-72143a869eef" class="bulleted-list"><li style="list-style-type:disc"><strong>Automatic Collection of Personal Information</strong>. We may collect certain information automatically when you use our Services, such as your Internet protocol (IP) address, user settings, MAC address, cookie identifiers, mobile carrier, mobile advertising and other unique identifiers, browser or device information, location information (including approximate location derived from IP address), and Internet service provider. We may also automatically collect information regarding your use of our Services, such as pages that you visit before, during and after using our Services, information about the links you click, the types of content you interact with, the frequency and duration of your activities, and other information about how you use our Services.</li></ul><ul id="f76d4d29-3d9a-42b5-972e-923a6b8eb0fd" class="bulleted-list"><li style="list-style-type:disc"><strong>Crash Reports</strong>. If you provide crash reports, we may collect personal information related to such crash reports, including detailed diagnostic information about your device and the activities that led to the crash.</li></ul><ul id="fbff066a-1089-465b-ae49-59b070805fd3" class="bulleted-list"><li style="list-style-type:disc"><strong>Cookie Policy (and Other Technologies).</strong> We, as well as third parties that provide content, advertising, or other functionality on our Services, may use cookies, pixel tags, and other technologies (“<strong>Technologies</strong>”) to automatically collect information through your use of our Services.</li></ul><ul id="c048d1b9-7501-40bb-b73f-0dbfea978390" class="bulleted-list"><li style="list-style-type:disc"><strong>Cookies</strong>. Cookies are small text files placed in device browsers that store preferences and facilitate and enhance your experience.</li></ul><ul id="77f7bc2e-d866-47b0-aabe-7b852f89c333" class="bulleted-list"><li style="list-style-type:disc"><strong>Pixel Tags/Web Beacons</strong>. A pixel tag (also known as a web beacon) is a piece of code embedded in our Services that collects information about engagement on our Services. The use of a pixel tag allows us to record, for example, that a user has visited a particular web page or clicked on a particular advertisement. We may also include web beacons in e-mails to understand whether messages have been opened, acted on, or forwarded.</li></ul><p id="c50f9059-157d-42da-8c88-b2c5c62ed69e" class="">Our uses of these Technologies fall into the following general categories:</p><ul id="b1bd5b2d-edb3-41ff-9949-07e6525b214c" class="bulleted-list"><li style="list-style-type:disc"><strong>Operationally Necessary</strong>. This includes Technologies that allow you access to our Services, applications, and tools that are required to identify irregular website behavior, prevent fraudulent activity, improve security, or allow you to make use of our functionality;</li></ul><ul id="30728b65-25df-4ed3-9d27-bba5bb299546" class="bulleted-list"><li style="list-style-type:disc"><strong>Performance-Related</strong>. We may use Technologies to assess the performance of our Services, including as part of our analytic practices to help us understand how individuals use our Services (<em>see Analytics below</em>);</li></ul><ul id="3e2fe1c3-18b1-4f76-9713-9f329ffc6200" class="bulleted-list"><li style="list-style-type:disc"><strong>Functionality-Related</strong>. We may use Technologies that allow us to offer you enhanced functionality when accessing or using our Services. This may include identifying you when you sign into our Services or keeping track of your specified preferences, interests, or past items viewed;</li></ul><p id="3ce8f90e-02f5-4f66-ae28-6ad59d74d15e" class=""><strong>C. Personal Information Collected from Other Sources</strong></p><p id="7df55cbf-c5a6-401f-9348-08bdac3484d5" class=""><strong>Third-Party Services and Sources</strong>. We may obtain personal information about you from other sources, including through third-party services and organizations. For example, if you access our Services through a third-party application, such as an app store, a third-party login service, or a social networking site, we may collect personal information about you from that third-party application that you have made available via your privacy settings.</p><p id="cbd4cbc2-69d3-465c-8e59-246a68841f08" class=""><strong>3. HOW WE USE YOUR PERSONAL INFORMATION</strong></p><p id="00bd1359-34bd-46e8-88ef-d9956c79a289" class="">We use your personal information for a variety of business purposes, including to provide our Services, for administrative purposes, and to market our products and Services, as described below.</p><p id="45bdfe18-3e77-4fc1-85ec-d8779231d97a" class=""><strong>A. Provide Our Services</strong></p><p id="8563c4fe-72be-4252-b6f7-80ebf24b78e6" class="">We use your information to fulfill our contract with you and provide you with our Services, such as:</p><ul id="71f83333-dc1c-4c7b-97a9-a9b69dfab8e1" class="bulleted-list"><li style="list-style-type:disc">Managing your information and accounts;</li></ul><ul id="b2ca67a5-3f1d-447c-a036-e3b93881ff0a" class="bulleted-list"><li style="list-style-type:disc">Providing access to certain areas, functionalities, and features of our Services;</li></ul><ul id="ee654a1a-bb17-4b71-aceb-1c0f96d0ae46" class="bulleted-list"><li style="list-style-type:disc">Answering requests for customer or technical support;</li></ul><ul id="e243f93a-3902-44ec-b427-b86c6b85087a" class="bulleted-list"><li style="list-style-type:disc">Communicating with you about your account, activities on our Services, and policy changes;</li></ul><ul id="180f1677-3c1e-4e7e-bd52-a74673046600" class="bulleted-list"><li style="list-style-type:disc">Processing your financial information and other payment methods for products or Services purchased;</li></ul><ul id="63115797-f3f7-4ac1-ab79-e2617bf23037" class="bulleted-list"><li style="list-style-type:disc">Processing applications if you apply for a job we post on our Services; and</li></ul><ul id="bbf386cc-7a82-4576-9d83-091ff73474c5" class="bulleted-list"><li style="list-style-type:disc">Allowing you to register for events.</li></ul><p id="17108b27-b114-4018-8ffa-234eed4a7935" class=""><strong>B. Administrative Purposes</strong></p><p id="32e23314-924f-45c5-ab3a-a7aceca94139" class="">We use your information for various administrative purposes, such as:</p><ul id="0a8e4b9f-c3eb-4ea8-ad19-49ad6d1e6971" class="bulleted-list"><li style="list-style-type:disc">Pursuing our legitimate interests such as direct marketing, research and development (including marketing research), network and information security, and fraud prevention;</li></ul><ul id="8af671d7-2965-4acd-9644-41b610d7fd4a" class="bulleted-list"><li style="list-style-type:disc">Detecting security incidents, protecting against malicious, deceptive, fraudulent or illegal activity, and prosecuting those responsible for that activity;</li></ul><ul id="02b49c34-932f-4ad1-914d-8eaa822f06cf" class="bulleted-list"><li style="list-style-type:disc">Measuring interest and engagement in our Services;</li></ul><ul id="bb1a2a85-0d1b-41d3-b6e1-1eb2774b8966" class="bulleted-list"><li style="list-style-type:disc">Short-term, transient use, such as contextual customization of ads;</li></ul><ul id="567dfd56-7c66-4072-9a38-f4cb629862ee" class="bulleted-list"><li style="list-style-type:disc">Improving, upgrading, or enhancing our Services;</li></ul><ul id="b9c2e5e4-6217-4a89-8f62-26949b0c71d5" class="bulleted-list"><li style="list-style-type:disc">Developing new products and services;</li></ul><ul id="315335da-a44d-496d-945e-d27d456fff1c" class="bulleted-list"><li style="list-style-type:disc">Ensuring internal quality control and safety;</li></ul><ul id="4acbae9f-0289-4d50-8543-a470e4a4342f" class="bulleted-list"><li style="list-style-type:disc">Authenticating and verifying individual identities, including requests to exercise your rights under this Privacy Policy;</li></ul><ul id="4fa87703-f668-4308-8997-ba1fd1441b52" class="bulleted-list"><li style="list-style-type:disc">Debugging to identify and repair errors with our Services;</li></ul><ul id="7251f621-cbb6-43da-bc7f-503757aa2fee" class="bulleted-list"><li style="list-style-type:disc">Auditing relating to interactions, transactions, and other compliance activities;</li></ul><ul id="24188135-bfb3-4f1c-b00c-62163ff50a68" class="bulleted-list"><li style="list-style-type:disc">Sharing personal information with third parties as needed to provide the Services;</li></ul><ul id="19e94e8c-c3ae-4aca-92ce-2d8e94653af1" class="bulleted-list"><li style="list-style-type:disc">Enforcing our agreements and policies; and</li></ul><ul id="5d5bce4a-9d6b-4638-911f-dba94476dd75" class="bulleted-list"><li style="list-style-type:disc">Carrying out activities that are required to comply with our legal obligations.</li></ul><p id="628272da-a116-4ff5-91ef-fa9f522f81bc" class=""><strong>C. Marketing and Advertising our Products and Services</strong></p><p id="3701ac48-1e61-400a-b6dd-9f0a259ffdba" class="">We may use personal information to tailor and provide you with content and advertisements. We may provide you with these materials as permitted by applicable law.</p><p id="1405771b-5120-4354-9268-ba7b1e1a9532" class="">Some of the ways we may market to you include email campaigns, custom audiences advertising and “interest-based” or “personalized advertising,” including through cross-context behavioral advertising.</p><p id="049cc603-e43c-4bef-8448-c9cb53c4b1cd" class="">If you have any questions about our marketing practices or if you would like to opt out of the use of your personal information for marketing purposes, you may contact us at any time as set forth in “Contact Us” below.</p><p id="c6fa9e5f-5405-4c23-b3d2-02877918216c" class=""><strong>D. With Your Consent</strong></p><p id="003c0a2a-d170-43b5-bf57-a5778462f82c" class="">We may use personal information for other purposes that are clearly disclosed to you at the time you provide personal information or with your consent.</p><p id="5e132b8d-5fee-496d-8edb-1846dbf91a80" class=""><strong>E. Other Purposes</strong></p><p id="80295f91-8d63-4dcd-96c9-0cabe0245ba5" class=""><strong>‍</strong></p><p id="55bdda2d-9c15-451b-a356-159b9ca6735d" class="">We also use your personal information for other purposes as requested by you or as permitted by applicable law.</p><ul id="7c2d92ee-caa0-4135-a5bc-235677daf2e1" class="bulleted-list"><li style="list-style-type:disc"><strong>De-identified and Aggregated Information</strong>. We may use personal information to create de-identified and/or aggregated information, such as demographic information, information about the device from which you access our Services, or other analyses we create.</li></ul><p id="b8d085c9-02ad-423b-aceb-123b7d53f4f5" class=""><strong>4. HOW WE DISCLOSE YOUR PERSONAL INFORMATION</strong></p><p id="a8e85645-c5b3-4f35-9006-4b4474e4a95e" class="">We disclose your personal information to third parties for a variety of business purposes, including to provide our Services, to protect us or others, or in the event of a major business transaction such as a merger, sale, or asset transfer, as described below.</p><p id="adfec676-29ae-457f-ad80-a778aacc268f" class=""><strong>A. Disclosures to Provide our Services</strong></p><p id="feddf840-fea5-48b3-a4de-74afbe92ccd1" class="">The categories of third parties with whom we may share your personal information are described below.</p><ul id="2612a4a9-4e80-4b93-b6d9-81a69309a448" class="bulleted-list"><li style="list-style-type:disc"><strong>Service Providers</strong>. We may share your personal information with our third-party service providers and vendors that assist us with the provision of our Services. This includes service providers and vendors that provide us with IT support, hosting, payment processing, customer service, and related services.</li></ul><ul id="f1ca31e8-6cfe-4408-b61e-08af5e9ce710" class="bulleted-list"><li style="list-style-type:disc"><strong>Affiliates</strong>. We may share your personal information with our company affiliates for example: for our administrative purposes, IT management, or for them to provide services to you or support and supplement the Services we provide.</li></ul><p id="5e20eea4-36c0-41c3-a998-84395fd022ea" class=""><strong>B. Disclosures to Protect Us or Others</strong></p><p id="c9d11757-e616-4ead-86e7-1796cd1bcbe4" class="">We may access, preserve, and disclose any information we store associated with you to external parties if we, in good faith, believe doing so is required or appropriate to: comply with law enforcement or national security requests and legal process, such as a court order or subpoena; protect your, our, or others’ rights, property, or safety; enforce our policies or contracts; collect amounts owed to us; or assist with an investigation or prosecution of suspected or actual illegal activity.</p><p id="a5d12f4a-8721-4b53-81a1-7459fb705d67" class=""><strong>C. Disclosure in the Event of Merger, Sale, or Other Asset Transfers</strong></p><p id="697b4eaa-6550-4311-b062-3680de4304af" class="">If we are involved in a merger, acquisition, financing due diligence, reorganization, bankruptcy, receivership, purchase or sale of assets, or transition of service to another provider, your information may be sold or transferred as part of such a transaction, as permitted by law and/or contract.</p><p id="0cbb1893-3696-475c-b229-0db6d7bfdaca" class=""><strong>5. YOUR PRIVACY RIGHTS</strong></p><p id="65f800c7-38da-41f7-90e9-9d17016cc940" class=""><strong>Your Privacy Rights</strong>. In accordance with applicable law, you may have the right to:</p><ul id="9c84f82e-d186-4b8f-b385-a523093ecd52" class="bulleted-list"><li style="list-style-type:disc"><strong>Access to and Portability of Your Personal Information</strong>, including: (i) confirming whether we are processing your personal information; (ii) obtaining access to or a copy of your personal information; and (iii) receiving an electronic copy of personal information that you have provided to us, or asking us to send that information to another company in a structured, commonly used, and machine-readable format (also known as the “right of data portability”);</li></ul><ul id="6f37b493-cf05-4ebb-bf00-e9265aca4c9c" class="bulleted-list"><li style="list-style-type:disc"><strong>Request Correction</strong> of your personal information where it is inaccurate or incomplete. In some cases, we may provide self-service tools that enable you to update your personal information;</li></ul><ul id="24b4e685-fd17-4c68-a74e-0717d2e00415" class="bulleted-list"><li style="list-style-type:disc"><strong>Request Deletion</strong> of your personal information;</li></ul><ul id="ebcadffc-78fd-4ec3-bd72-d0f7f971d90e" class="bulleted-list"><li style="list-style-type:disc"><strong>Request Restriction of or Object to</strong> our processing of your personal information where the processing of your personal information is based on our legitimate interest or for direct marketing purposes; and</li></ul><ul id="a511d4dc-6132-4c81-948a-d3b73326d388" class="bulleted-list"><li style="list-style-type:disc"><strong>Withdraw your Consent</strong> to our processing of your personal information. Please note that your withdrawal will only take effect for future processing and will not affect the lawfulness of processing before the withdrawal.</li></ul><p id="deaa5f2e-0f2f-4e90-898c-210f8b54eab1" class="">If you would like to exercise any of these rights, please contact us as set forth in “Contact Us” below. We will process such requests in accordance with applicable laws.</p><p id="c258a147-a2f8-4970-b32c-9e7f533d98c1" class=""><strong>6. SECURITY OF YOUR INFORMATION</strong></p><p id="e859b17d-40d5-41da-a784-fbd76feac8cb" class="">We take steps to ensure that your information is treated securely and in accordance with this Privacy Policy. Unfortunately, no system is 100% secure, and we cannot ensure or warrant the security of any information you provide to us. To the fullest extent permitted by applicable law, we do not accept liability for unauthorized access, use, disclosure, or loss of personal information.</p><p id="8420e978-3120-4858-859b-1ddb36a70444" class="">By using our Services or providing personal information to us, you agree that we may communicate with you electronically regarding security, privacy, and administrative issues relating to your use of our Services. If we learn of a security system’s breach, we may attempt to notify you electronically by posting a notice on our Services, by mail, or by sending an email to you.</p><p id="449533c9-bf7a-4afe-8925-7edca5726f39" class=""><strong>7. RETENTION OF PERSONAL INFORMATION</strong></p><p id="3e2ae08e-902b-4699-92d4-692bf26e4c11" class="">We store the personal information we collect as described in this Privacy Policy for as long as you use our Services or as necessary to fulfill the purpose(s) for which it was collected, provide our Services, resolve disputes, establish legal defenses, conduct audits, pursue legitimate business purposes, enforce our agreements, and comply with applicable laws.</p><p id="1eaf2c41-18ae-4bb4-9e82-5f9afbfab06e" class=""><strong>8. SUPPLEMENTAL NOTICE FOR CALIFORNIA RESIDENTS</strong></p><p id="e8bfe685-0c78-49ab-8e7e-bd9679b512bd" class=""><strong>California Shine the Light</strong>. The California “Shine the Light” law permits users who are California residents to request and obtain from us once a year, free of charge, a list of the third parties to whom we have disclosed their personal information (if any) for their direct marketing purposes in the prior calendar year, as well as the type of personal information disclosed to those parties.</p><p id="0e44cc2d-00b6-4e3f-937b-45ecd8dc5b9a" class=""><strong>Right for minors to remove posted content.</strong> Where required by law, California residents under the age of 18 may request to have their posted content or information removed from the publicly-viewable portions of the Services by contacting us directly as set forth in Contact Us below.</p><p id="812260f1-1fdd-4216-ab9f-0a8db4f25fd5" class=""><strong>9. SUPPLEMENTAL NOTICE FOR NEVADA RESIDENTS</strong></p><p id="d866b7d2-383d-44b3-b4a4-acddc455e935" class="">If you are a resident of Nevada, you have the right to opt-out of the sale of certain personal information to third parties who intend to license or sell that personal information. You can exercise this right by contacting us at <a href="mailto:support@passagehealth.com">jasmine@abativity.com</a> with the subject line “Nevada Do Not Sell Request” and providing us with your name and the email address associated with your account. Please note that we do not currently sell your personal information as sales are defined in Nevada Revised Statutes Chapter 603A. If you have any questions, please contact us as set forth in Contact Us below.</p><p id="cb282f6f-72de-4b4a-b84c-99803b8a1d30" class=""><strong>10. CHILDREN’S INFORMATION</strong></p><p id="681912fa-cff3-4c24-a022-13c519fd88d7" class="">The Services are not directed to children under 13 (or other age as required by local law), and we do not knowingly collect personal information from children. If you are a parent or guardian and wish to review information collected from your child, or have that information modified or deleted, you may contact us as described in “Contact Us” below. If we become aware that a child has provided us with personal information in violation of applicable law, we will delete any personal information we have collected, unless we have a legal obligation to keep it.</p><p id="3b226130-789f-4cb3-9710-fa0c0a97020e" class=""><strong>11. OTHER PROVISIONS</strong></p><p id="8d932190-abd9-4b2e-86d3-035bd1c81433" class=""><strong>Third-Party Websites/Applications.</strong> The Services may contain links to other websites/applications, and other websites/applications may reference or link to our Services. These third-party services are not controlled by us. We encourage our users to read the privacy policies of each website and application with which they interact. We do not endorse, screen, or approve, and are not responsible for, the privacy practices or content of such other websites or applications. Providing personal information to third-party websites or applications is at your own risk.</p><p id="f28e8120-2a1f-4252-a45a-b5899885f6d1" class=""><strong>12. CONTACT US</strong></p><p id="bb9b9371-090d-49cb-bbc8-2f6a9bbc5d08" class="">Abativity, LLC is the controller of the personal information we process under this Privacy Policy.</p><p id="34cbbed1-2626-4af1-a1f2-163520441df4" class="">If you have any questions about our privacy practices or this Privacy Policy or if you wish to exercise your rights as detailed in this Privacy Policy, please contact us at:</p><p id="9acb98a1-9fec-4379-b9c9-5939ff036644" class=""><a href="mailto:support@abativity.com">jasmine@abativity.com</a></p><p id="2631c175-239a-442b-be2d-bb172c9b6733" class="">
+</p><p id="f3b8915a-17c6-4e7a-a8b0-f126bb8a2ce1" class=""><em>Last Updated: October 10, 2023</em></p><p id="a8d2d464-2b9e-4e61-951a-2d16f75da93c" class="">
+</p></div></article><span class="sans" style="font-size:14px;padding-top:2em"></span></body></html>

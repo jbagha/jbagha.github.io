@@ -34,40 +34,40 @@
 				<!-- Main -->
 					<div id="main">
 
-						<!-- Domain Nav -->
-						<nav id="dom-nav">
-							<ul>
-								<li><a href="library.html">General</a></li>
-								<li><a href="#second">Experssive Com</a></li>
-								<li><a href="#footer">Receptive Com</a></li>
-								<li><a href="#footer">DLS</a></li>
-								<li><a href="#footer">Social Skills</a></li>
-								<li><a href="#footer">Parent Trainings</a></li>
-								<script>
-									function redirectToPage() {
-										var dropdown = document.getElementById("socialSkillsDropdown");
-										var selectedOption = dropdown.options[dropdown.selectedIndex].value;
-										if (selectedOption === "child") {
-											window.location.href = "child-page.html";
-										} else if (selectedOption === "teen") {
-											window.location.href = "teen-page.html";
-										} else if (selectedOption === "relationship") {
-											window.location.href = "relationship-page.html";
-										}
-									}
-								</script>
+                <!-- Domain Nav -->
+                <nav id="dom-nav">
+                    <ul>
+                        <li><a href="general.html">General</a></li>
+                        <li><a href="expressive.html">Experssive Com</a></li>
+                        <li><a href="receptive.html">Receptive Com</a></li>
+                        <li><a href="dls.html">DLS</a></li>
+                        <li><a href="ss.html">Social Skills</a></li>
+                        <li><a href="pt.html">Parent Trainings</a></li>
+                        <script>
+                            function redirectToPage() {
+                                var dropdown = document.getElementById("socialSkillsDropdown");
+                                var selectedOption = dropdown.options[dropdown.selectedIndex].value;
+                                if (selectedOption === "child") {
+                                    window.location.href = "child.html";
+                                } else if (selectedOption === "teen") {
+                                    window.location.href = "teen.html";
+                                } else if (selectedOption === "relationship") {
+                                    window.location.href = "relationship.html";
+                                }
+                            }
+                        </script>
 
-								<li>
+                        <li>
 
-									<select id="socialSkillsDropdown" onchange="redirectToPage()">
-										<option value="" disabled selected>SSG Lessons</option>
-										<option value="child">Child</option>
-										<option value="teen">Teen</option>
-										<option value="relationship">Relationship</option>
-									</select>
-								</li>
-							</ul>
-						</nav>
+                            <select id="socialSkillsDropdown" onchange="redirectToPage()">
+                                <option value="" disabled selected>SSG Lessons</option>
+                                <option value="child">Child</option>
+                                <option value="teen">Teen</option>
+                                <option value="relationship">Relationship</option>
+                            </select>
+                        </li>
+                    </ul>
+                </nav>
 
 								<!-- Section Title -->
 
